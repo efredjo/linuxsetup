@@ -1,6 +1,12 @@
 
+# Nice Paper Theme
 # From https://itsfoss.com/install-paper-theme-linux/
 sudo add-apt-repository ppa:snwh/pulp
 sudo apt-get update
 sudo apt-get install paper-gtk-theme paper-icon-theme
+
+# Set minimize on click
+# From https://askubuntu.com/questions/36433/can-i-use-the-unity-launcher-icon-to-minimize-applications-windows
+gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+# gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window false
 
